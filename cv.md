@@ -1,4 +1,5 @@
 # Veronika Khaneuskaya
+***
 
 ![foto](/Загрузки "IMG_7804")
 # About me
@@ -6,19 +7,20 @@ I work as a teacher at the Belarusian National University.
 # My skills
 I am professionally able to choose films to be watched for the evening and a little HTML, CSS, JS
 # Education 
-*Education Institution:**	Belarusian State Technological University
-  *Speciality**energy-manager	
+* Education Institution: Belarusian State Technological University
+    * Speciality: energy-manager	
 
-*Education course:** A1QA
-   *Speciality**  
+* Education course: A1QA
+   * Speciality: manual testing
+  
 # English 
 my level of English is intermediate, before I had language practice while traveling
 
 # Code Example
 
-```function multiply(a, b){
-  a * b
-}```
+`function multiply(a, b){
+ return a * b
+  }`
 
 
 # Contacts:
