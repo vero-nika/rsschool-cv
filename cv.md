@@ -1,7 +1,8 @@
 # Veronika Khaneuskaya
 ***
 
-![foto](/Загрузки "IMG_7804")
+![foto](./photo5278325553801311667.jpg "hhh")
+***
 # About me
 I work as a teacher at the Belarusian National University. 
 # My skills
