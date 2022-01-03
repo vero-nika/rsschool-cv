@@ -1,16 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
-    <title>VSCode</title>
+<!doctype html>
+<html lang="ru">
+<head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Resume</title>
 </head>
-<body>
-    <article>
-        <p><span class="text-block">4text</span></p>
-    </article>  
-<script src="script.js"></script>  
+<body> 
+  <header class="container">
+        <nav class="menu">
+            <ul class="nav">
+                <li><a href="#main" class="nav-li">Main</a></li>
+                <li><a href="#about" class="nav-li">About me</a></li>
+                <li><a href="#contacts" class="nav-li">Contacts</a></li>
+                <li><a href="#skills" class="nav-li">Skills</a></li>
+                <li><a href="#code" class="nav-li">Code</a></li>
+                <li><a href="#education" class="nav-li">Education</a></li>
+            </ul>
+        </nav>
+  </header>
+
+  <main class="container"> 
+  <section  class="description">
+      <div class="title" id="main"><h1>Veronika Khaneuskaya</h1>
+        <div class="description">
+        <div class="content" id="about">
+            <h2>About me</h2>
+            <p>I am sociable, polite, communicative, easy-going person, always open for new activities and easy-to-learn. I am engaged in a photography, graduated from a music school, the classes of piano. Also I'm keen on travelling. </p>
+        </div>
+        <div class="content" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li><a class="pic-footer" href="https://github.com/vero-nika" title="github" target="_blank">Github<img src="./img/github.png" alt="logo" width="30" height="30"></a></li>
+                <li><a class="pic" href="tg://resolve?domain=nikahanevskaya" title="telegram" target="_blank">Telegram<img src="./img/tg.png" alt="logo" width="30" height="30"></a></li>
+                <li>E-mail: Nika.palamarchuk2014@gmail.com</li>
+                <li>Phone number: +375259308947 (Viber, Telegram)</li>
+            </ul>
+        </div>
+        <div class="content" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    <p> I have a based knowledge of HTML, CSS, Git, JS, English level Pre-Intermedia.</p>
+                </li>
+                <li>
+                    <p>I have been studying online courses at Codeacademia, SoloLearn, CodeGym, and currently I'm studying at RSSchool courses.</p> 
+                </li>
+            </ul>            
+        </div>
+        <div class="content" id="code" style="padding-bottom: 15px;">
+            <h2>Code</h2>
+            <p><code>
+                function checkParent (src, dest) {<Br>
+                 while (src != null) {<Br>
+                   if (src.tagName == dest) return src<Br>
+                    src = src.parentElement<Br>
+                 }<Br>
+                 return null<Br>
+                }</code></p>
+        </div> 
+        <div class="content" id="education">
+            <h2>Education</h2>
+            <p>I have graduated from Belarusian State Technological University, "Engineer energy manager" major in 2008-2013.</p>
+            <p>Also, I have a Master degree in "Property Management" major, the period of studying is from 2013 to 2015. </p>
+            <p>English level: Pre-intermediate</p>
+        </div>   
+    </div>
+    </div>
+    <aside class="photo">
+        <img class="avatar" src="https://pp.userapi.com/c840523/v840523171/2c03e/ezagvre-83U.jpg" alt="Veronika" width="550">
+    </aside>
+  </section>
+</main>
+        
+<footer class="footer">
+      <ul class="footer-ul">
+          <li><a class="pic-footer" href="https://github.com/vero-nika" title="github" target="_blank"><img src="./img/github.png" alt="logo" width="40" height="40"></a></li>
+          <li><a class="pic" href="https://rs.school/js/" title="rss" target="blank"><img src="./img/rs_school_js.svg" alt="logo" width="90" height="33"></a></li>
+          <li><p class="footer-p">2022</p></li>
+      </ul>
+</footer>
 </body>
 </html>
