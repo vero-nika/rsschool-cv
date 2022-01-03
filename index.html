@@ -1,16 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
-    <title>VSCode</title>
+<!doctype html>
+<html lang="ru">
+<head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Resume</title>
 </head>
-<body>
-    <article>
-        <p><span class="text-block">4text</span></p>
-    </article>  
-<script src="script.js"></script>  
+<body> 
+  <header class="container">
+        <nav class="menu">
+            <ul class="nav">
+                <li><a href="#main" class="nav-li">Main</a></li>
+                <li><a href="#about me" class="nav-li">About me</a></li>
+                <li><a href="#contacts" class="nav-li">Contacts</a></li>
+                <li><a href="#skills" class="nav-li">Skills</a></li>
+                <li><a href="#code" class="nav-li">Code</a></li>
+                <li><a href="#education" class="nav-li">Education</a></li>
+            </ul>
+        </nav>
+  </header>
+
+  <main class="container"> 
+  <section  class="description">
+      <div class="title" id="main"><h1>Veronika Khaneuskaya</h1>
+        <div class="description">
+        <div class="content" id="about me">
+            <h2>About me</h2>
+            <p>I am sociable, easy to learn, active, polite, I am engaged in photography, graduated from a music school in the piano class, I really like to travel. </p>
+        </div>
+        <div class="content" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li><a class="pic-footer" href="https://github.com/vero-nika" title="github" target="_blank">Github<img src="./img/github.png" alt="logo" width="30px" height="30px"></a></li>
+                <li><a class="pic" href="tg://resolve?domain=nikahanevskaya" title="telegram" target="_blank">Telegram<img src="./img/tg.png" alt="logo" width="30px" height="30px"></a></li>
+                <li>E-mail: Nika.palamarchuk2014@gmail.com</li>
+                <li>Мой телефон: +375259308947 (Viber, Telegram)</li>
+            </ul>
+        </div>
+        <div class="content" id="skills">
+            <h2>Skills</h2>
+            <p>I have an elementery level in HTML, CSS, Git, JS, English level Pre-Intermedia.</p>
+            <p>I studied on-line courses at Codeacademia, SoloLearn, CodeGym, and I am also studying at RSSchool courses.</p> 
+        </div>
+        <div class="content" id="code" style="padding-bottom: 15px;">
+            <h2>Code</h2>
+            <p><code>
+                function checkParent (src, dest) {<Br>
+                 while (src != null) {<Br>
+                   if (src.tagName == dest) return src<Br>
+                    src = src.parentElement<Br>
+                 }<Br>
+                 return null<Br>
+                }</code></p>
+        </div> 
+        <div class="content" id="education">
+            <h2>Education</h2>
+            <p>I studied at the Belarusian State Technological University in the specialty "Engineer energy manager" from 2008 to 2013.</p>
+            <p>I studied for a magistracy in the specialty "Property Management" in the period from 2013 to 2015. </p>
+            <p>English level: Pre-intermediate</p>
+        </div>   
+    </div>
+    </div>
+    <aside class="photo">
+        <img class="avatar" src="https://pp.userapi.com/c840523/v840523171/2c03e/ezagvre-83U.jpg" alt="Veronika" width="550px">
+      </aside>
+</main>
+        
+<footer class="footer">
+      <ul class="footer-ul">
+          <li><a class="pic-footer" href="https://github.com/vero-nika" title="github" target="_blank"><img src="./img/github.png" alt="logo" width="40px" height="40px"></a></li>
+          <li><a class="pic" href="https://rs.school/js/" title="rss" target="blank"><img src="./img/rs_school_js.svg" alt="logo" width="90px" height="33px"></a></li>
+          <p class="footer-p">2022</p>
+      </ul>
+</footer>
 </body>
 </html>
+ 
